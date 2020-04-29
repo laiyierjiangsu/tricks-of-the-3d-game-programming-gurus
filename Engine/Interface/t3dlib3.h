@@ -56,8 +56,8 @@ typedef struct pcm_sound_typ
 // directmusic MIDI segment
 typedef struct DMUSIC_MIDI_TYP
 {
-    IDirectMusicSegment        *dm_segment;  // the directmusic segment
-    IDirectMusicSegmentState   *dm_segstate; // the state of the segment
+//    IDirectMusicSegment        *dm_segment;  // the directmusic segment
+  //  IDirectMusicSegmentState   *dm_segstate; // the state of the segment
     int                        id;           // the id of this segment               
     int                        state;        // state of midi song
 
@@ -113,8 +113,8 @@ extern pcm_sound			sound_fx[MAX_SOUNDS];    // the array of secondary sound buff
 extern WAVEFORMATEX			pcmwf;          // generic waveformat structure
 
 // direct music globals
-extern IDirectMusicPerformance    *dm_perf ;    // the directmusic performance manager 
-extern IDirectMusicLoader         *dm_loader;  // the directmusic loader
+//extern IDirectMusicPerformance    *dm_perf ;    // the directmusic performance manager 
+//extern IDirectMusicLoader         *dm_loader;  // the directmusic loader
 
 // this hold all the directmusic midi objects
 extern DMUSIC_MIDI                dm_midi[DM_NUM_SEGMENTS];

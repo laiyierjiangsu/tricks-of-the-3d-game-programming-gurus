@@ -24,9 +24,6 @@
 #include <ddraw.h>  // directX includes
 #include <dsound.h>
 #include <dmksctrl.h>
-#include <dmusici.h>
-#include <dmusicc.h>
-#include <dmusicf.h>
 #include <dinput.h>
 #include "T3DLIB1.h" // game library includes
 #include "T3DLIB2.h"
